@@ -1,9 +1,8 @@
+import { MainLayout } from '../src/components';
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <MainLayout pageDescription='About the page'>
+    </MainLayout>
   )
 }
